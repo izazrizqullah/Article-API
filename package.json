@@ -7,6 +7,7 @@
   },
   "main": "index.js",
   "scripts": {
+    "script": "node app.js",
     "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

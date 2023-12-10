@@ -11,5 +11,6 @@ router.post(
   cArticle.create
 );
 router.get("/get-all", mid.mustLogin, cArticle.getAll);
+router.delete("/delete/:id", mid.mustLogin, cArticle.destroy);
 
 module.exports = router;
